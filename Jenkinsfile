@@ -19,7 +19,7 @@ pipeline {
             }
              post {
                 success {
-                    junit 'NumberGenerator/target/surefire-reports/*.xml'
+                    junit 'NumberGenerator/target/surefire-reports/pom.xml'
                         }
                  }
                
